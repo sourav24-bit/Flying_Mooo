@@ -34,7 +34,7 @@ def load_image(file_path):
     return pygame.transform.scale(img, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Load background outside the main loop
-background = load_image(r"C:\Users\Sourav Swain\Flying Mooo\Background\Background.png")
+background = load_image(r"\Flying Mooo\Background\Background.png")
 
 
 class Cow(pygame.sprite.Sprite):
